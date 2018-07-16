@@ -15,6 +15,8 @@
 		F7FADC3320FC6EB1004CEC02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7FADC3120FC6EB1004CEC02 /* LaunchScreen.storyboard */; };
 		F7FADC3D20FC71A1004CEC02 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F7FADC3C20FC71A1004CEC02 /* Podfile */; };
 		F7FADC3F20FC728E004CEC02 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FADC3E20FC728E004CEC02 /* LoginViewModel.swift */; };
+		F7FADC4320FC8094004CEC02 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FADC4220FC8094004CEC02 /* MovieListViewController.swift */; };
+		F7FADC4520FC827B004CEC02 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FADC4420FC827B004CEC02 /* MovieViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		F7FADC3420FC6EB1004CEC02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7FADC3C20FC71A1004CEC02 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
 		F7FADC3E20FC728E004CEC02 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		F7FADC4220FC8094004CEC02 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		F7FADC4420FC827B004CEC02 /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,7 @@
 		F7FADC2720FC6EB1004CEC02 /* MVVMwithRXSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F7FADC4120FC8032004CEC02 /* MoviewList */,
 				F7FADC3C20FC71A1004CEC02 /* Podfile */,
 				F7FADC2820FC6EB1004CEC02 /* AppDelegate.swift */,
 				F7FADC2A20FC6EB1004CEC02 /* ViewController.swift */,
@@ -83,6 +88,15 @@
 				F7FADC3E20FC728E004CEC02 /* LoginViewModel.swift */,
 			);
 			path = MVVMwithRXSwiftDemo;
+			sourceTree = "<group>";
+		};
+		F7FADC4120FC8032004CEC02 /* MoviewList */ = {
+			isa = PBXGroup;
+			children = (
+				F7FADC4220FC8094004CEC02 /* MovieListViewController.swift */,
+				F7FADC4420FC827B004CEC02 /* MovieViewModel.swift */,
+			);
+			name = MoviewList;
 			sourceTree = "<group>";
 		};
 		FD5C9922F5B39F3062266556 /* Pods */ = {
@@ -211,8 +225,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7FADC2B20FC6EB1004CEC02 /* ViewController.swift in Sources */,
+				F7FADC4520FC827B004CEC02 /* MovieViewModel.swift in Sources */,
 				F7FADC2920FC6EB1004CEC02 /* AppDelegate.swift in Sources */,
 				F7FADC3F20FC728E004CEC02 /* LoginViewModel.swift in Sources */,
+				F7FADC4320FC8094004CEC02 /* MovieListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
