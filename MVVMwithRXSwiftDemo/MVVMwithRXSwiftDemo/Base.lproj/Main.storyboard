@@ -127,7 +127,12 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Idn-2A-Nbn" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <customObject id="lGy-Tm-biA" customClass="MovieViewModel" customModule="MVVMwithRXSwiftDemo" customModuleProvider="target"/>
+                <customObject id="lGy-Tm-biA" customClass="MovieViewModel" customModule="MVVMwithRXSwiftDemo" customModuleProvider="target">
+                    <connections>
+                        <outlet property="moviesClient" destination="LcD-LJ-3Mb" id="2te-oa-HQa"/>
+                    </connections>
+                </customObject>
+                <customObject id="LcD-LJ-3Mb" customClass="MoviesClient" customModule="MVVMwithRXSwiftDemo" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="839" y="138"/>
         </scene>
