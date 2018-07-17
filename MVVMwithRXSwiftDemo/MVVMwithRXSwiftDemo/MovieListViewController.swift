@@ -15,7 +15,14 @@ class MovieListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        DispatchQueue.main.async {
+            self.viewModel.fetchMovies {
+                
+                self.tableView.reloadData()
+            }
+        }
+        
+   
         // Do any additional setup after loading the view.
     }
 
@@ -34,7 +41,7 @@ extension MovieListViewController: UITableViewDataSource{
     }
     
     func configureCell(cell: UITableViewCell , indexPath : IndexPath){
-        cell.textLabel?.text = "hello"
+        cell.textLabel?.text = viewModel.titleItemForIndexPath(section: indexPath.row)
     }
     
 }

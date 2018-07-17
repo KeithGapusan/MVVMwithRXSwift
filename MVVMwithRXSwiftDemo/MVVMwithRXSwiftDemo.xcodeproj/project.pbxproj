@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		52EBE9E68E81E865BEF02355 /* Pods_MVVMwithRXSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012143D86A29A64499D44A92 /* Pods_MVVMwithRXSwiftDemo.framework */; };
+		F7F3407220FD84B000CC0087 /* MoviesClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F3407120FD84B000CC0087 /* MoviesClient.swift */; };
 		F7FADC2920FC6EB1004CEC02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FADC2820FC6EB1004CEC02 /* AppDelegate.swift */; };
 		F7FADC2B20FC6EB1004CEC02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FADC2A20FC6EB1004CEC02 /* ViewController.swift */; };
 		F7FADC2E20FC6EB1004CEC02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7FADC2C20FC6EB1004CEC02 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 		012143D86A29A64499D44A92 /* Pods_MVVMwithRXSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMwithRXSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B056A8DD8D43CC5FCEF78DB /* Pods-MVVMwithRXSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMwithRXSwiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVMwithRXSwiftDemo/Pods-MVVMwithRXSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
 		6EEC185FB25BFA5DB44CFDC1 /* Pods-MVVMwithRXSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMwithRXSwiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVMwithRXSwiftDemo/Pods-MVVMwithRXSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F7F3407120FD84B000CC0087 /* MoviesClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesClient.swift; sourceTree = "<group>"; };
 		F7FADC2520FC6EB1004CEC02 /* MVVMwithRXSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMwithRXSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7FADC2820FC6EB1004CEC02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7FADC2A20FC6EB1004CEC02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			children = (
 				F7FADC4220FC8094004CEC02 /* MovieListViewController.swift */,
 				F7FADC4420FC827B004CEC02 /* MovieViewModel.swift */,
+				F7F3407120FD84B000CC0087 /* MoviesClient.swift */,
 			);
 			name = MoviewList;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7FADC2B20FC6EB1004CEC02 /* ViewController.swift in Sources */,
+				F7F3407220FD84B000CC0087 /* MoviesClient.swift in Sources */,
 				F7FADC4520FC827B004CEC02 /* MovieViewModel.swift in Sources */,
 				F7FADC2920FC6EB1004CEC02 /* AppDelegate.swift in Sources */,
 				F7FADC3F20FC728E004CEC02 /* LoginViewModel.swift in Sources */,
